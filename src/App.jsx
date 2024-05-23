@@ -1,12 +1,16 @@
 import { useState } from 'react'
+import Header from './Components/Header'
+import MainBody from './Components/MainBody'
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1 className='h-40 text-3xl text-purple-800 font-bold text-center'>This is a heading</h1>
+      <div className='h-screen w-full bg-slate-100'>
+        <Header />
+        <MainBody />
+      </div>
     </>
   )
 }
