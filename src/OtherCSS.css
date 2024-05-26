@@ -1,24 +1,36 @@
 .Htmllogo:hover {
     filter: drop-shadow(0 0 2em #e54c21);
 }
+
 .Csslogo:hover {
     filter: drop-shadow(0 0 2em #214ce5);
 }
+
 .JSlogo:hover {
     filter: drop-shadow(0 0 2em #d6ba32);
 }
+
 .Reactlogo:hover {
     filter: drop-shadow(0 0 2em #62dbfb);
 }
+
 .Tailwindlogo:hover {
     filter: drop-shadow(0 0 2em #48adb3);
 }
+
 .Pythonlogo:hover {
     filter: drop-shadow(0 0 2em #ffe66f);
 }
+
 .Bootstraplogo:hover {
     filter: drop-shadow(0 0 2em #8b0bfb);
 }
+
 .Gitlogo:hover {
     filter: drop-shadow(0 0 2em #f34f29);
+}
+
+
+html {
+    scroll-behavior: smooth;
 }
