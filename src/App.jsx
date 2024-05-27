@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <div className='h-auto w-full bg-slate-100'>
+      <div className='h-auto w-full bg-slate-100 dark:bg-slate-700'>
         <Header />
         <MainBody />
         <About />
