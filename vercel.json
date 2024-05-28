@@ -1,6 +1,6 @@
 {
     "rewrites": [
-      { "source": "/(.*)", "destination": "/Rishabh_CV.pdf" }
+      { "source": "../../Rishabh_CV.pdf", "destination": "/Rishabh_CV.pdf" }
     ]
   }
   
