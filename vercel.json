@@ -1,6 +1,5 @@
 {
-    "rewrites": [
-      { "source": "../../Rishabh_CV.pdf", "destination": "/Rishabh_CV.pdf" }
-    ]
-  }
-  
+  "rewrites": [
+    { "source": "/Rishabh_CV.pdf", "destination": "/public/Rishabh_CV.pdf" }
+  ]
+}

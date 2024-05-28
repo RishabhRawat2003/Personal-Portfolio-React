@@ -7,7 +7,7 @@ import MainImage from './MainImage.jpg'
 function MainBody() {
 
     const openPDF = () => {
-        window.open('../../Rishabh_CV.pdf', '_blank');
+        window.open('/Rishabh_CV.pdf', '_blank');
     };
 
     return (
