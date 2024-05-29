@@ -1,9 +1,14 @@
 import React from 'react'
 import { IoMdMail } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
+import { useEffect } from 'react';
 
 function Contact() {
-    document.addEventListener('DOMContentLoaded', () => {
+    // document.addEventListener('DOMContentLoaded', () => {
+
+    // });
+
+    useEffect(() => {
         const form = document.forms['submit-to-google-sheet']
         const scriptURL = 'https://script.google.com/macros/s/AKfycbynE-azuI77zXMIibwVs65pP1MH7NJJk893RJyhV_Tnxh_5CYwAi7ZwtouGzhog5X5C/exec'
         const msg = document.getElementById('text')
@@ -11,7 +16,6 @@ function Contact() {
             e.preventDefault();
             fetch(scriptURL, { method: 'POST', body: new FormData(form) })
                 .then(response => {
-                    console.log("hello");
                     msg.innerHTML = "Message sent successfully "
                     setTimeout(() => {
                         msg.innerHTML = ""
@@ -19,8 +23,8 @@ function Contact() {
                     form.reset()
                 })
                 .catch(error => console.error('Error!', error.message));
-        });
-    });
+        })
+    },[])
 
     return (
         <div id='Contact' className='w-[80%] h-auto py-5 mt-6 mx-auto shadow-lg rounded-xl shadow-gray-500 flex flex-col dark:shadow-gray-900'>

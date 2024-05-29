@@ -11,7 +11,6 @@ function Header() {
 
   document.addEventListener('scroll', () => {
     let scroll = Math.floor(scrollY)
-    console.log(scroll);
     if(scroll > 40){
       setBars(false)
       setSticky(true)
