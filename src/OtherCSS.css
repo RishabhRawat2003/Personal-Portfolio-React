@@ -30,6 +30,17 @@
     filter: drop-shadow(0 0 2em #f34f29);
 }
 
+.Nodejslogo:hover {
+    filter: drop-shadow(0 0 2em #418e3b);
+}
+
+.Expressjslogo:hover {
+    filter: drop-shadow(0 0 2em #000000);
+}
+
+.MongoDBlogo:hover {
+    filter: drop-shadow(0 0 2em #09934e);
+}
 
 html {
     scroll-behavior: smooth;

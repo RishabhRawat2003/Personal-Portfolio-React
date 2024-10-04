@@ -19,8 +19,8 @@ function MainBody() {
                 <div className='w-full h-auto flex flex-col lg:my-8'>
                     <p className='mx-auto mt-4 font-newFont sm:text-lg lg:text-xl dark:text-white'>Hello, I'm</p>
                     <p className='mx-auto mt-1 text-3xl font-medium font-newFont text-blue-500 sm:text-4xl lg:text-5xl'>Rishabh Rawat</p>
-                    <p className='mx-auto font-bold text-lg font-newFont text-gray-500 sm:text-xl dark:text-slate-500'>Frontend Developer</p>
-                    <p className='mx-auto mt-4 font-newFont font-medium w-[95%] text-lg lg:text-xl xl:text-2xl xl:w-[80%] dark:text-white'><span className='text-blue-500 font-semibold'>Web & Frontend Developer</span> with a passion for building creative solutions with aesthetic interfaces.</p>
+                    <p className='mx-auto font-bold text-lg font-newFont text-gray-500 sm:text-xl dark:text-slate-500'>Full Stack Developer</p>
+                    <p className='mx-auto mt-4 font-newFont font-medium w-[95%] text-lg lg:text-xl xl:text-2xl xl:w-[80%] dark:text-white'>Passionate <span className='text-blue-500 font-semibold'>MERN Stack Developer</span> building dynamic applications with functional and visually engaging user interfaces</p>
                 </div>
             </div>
             <div className='w-full h-auto flex flex-col md:items-center mt-8 md:flex-row lg:mb-5'>

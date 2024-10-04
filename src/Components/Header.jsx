@@ -7,14 +7,14 @@ import { IoCloseOutline } from "react-icons/io5";
 function Header() {
   const [theme, setTheme] = useState(false)
   const [bars, setBars] = useState(false)
-  const [sticky , setSticky] = useState(false)
+  const [sticky, setSticky] = useState(false)
 
   document.addEventListener('scroll', () => {
     let scroll = Math.floor(scrollY)
-    if(scroll > 40){
+    if (scroll > 40) {
       setBars(false)
       setSticky(true)
-    }else{
+    } else {
       setSticky(false)
     }
   })
@@ -38,7 +38,7 @@ function Header() {
   }, [theme])
 
   return (
-    <header className={sticky ? 'h-16 w-full flex justify-between sticky top-0 bg-slate-200 dark:bg-slate-600 items-center z-20 transition-all duration-200 lg:h-20' : 'h-16 w-full flex justify-between dark:bg-slate-700 transition-all duration-200 bg-slate-100 items-center lg:h-20' }>
+    <header className={sticky ? 'h-16 w-full flex justify-between sticky top-0 bg-slate-200 dark:bg-slate-600 items-center z-20 transition-all duration-200 lg:h-20' : 'h-16 w-full flex justify-between dark:bg-slate-700 transition-all duration-200 bg-slate-100 items-center lg:h-20'}>
       <div className='text-xl font-semibold ml-5 cursor-pointer font-newFont sm:text-2xl lg:ml-10 lg:text-3xl xl:ml-20 dark:text-white'><a href="#">Rishabh.Dev</a></div>
       <div className='flex gap-5 mr-5 sm:gap-8 lg:gap-14 lg:mr-10 xl:gap-20 xl:mr-20'>
         <span className='text-sm hidden font-semibold cursor-pointer hover:text-blue-500 hover:underline-offset-8 hover:underline sm:inline font-mono sm:text-lg lg:text-xl dark:text-white dark:hover:text-blue-500'><a href="#About">About</a></span>
